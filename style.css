@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(245, 157, 147);
+    height: 30px;
+    align-content: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-end;
+  
+    
+    
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(230, 3, 3);
+}
+
+.main {
+    background-image: url('./pictures/background.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+
+.motto {
+    text-align: right;
+    margin: 0 5%;
+}
+
+.experiment { 
+    margin: 2% 5%;    
+}
+
+p {
+    line-height: 1.5;
+    color: black;
+    font-size: 16px;
+}
+
+h1, h4, h2 {
+    text-align: center;   
+    color: rgb(224, 37, 74);
+    font-family: cursive;
+}
+
+
+.bcp {
+    background-image: url(./pictures/background.png);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    
+}
+.album-head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.album-head p {
+    
+    line-height: 1.5;
+    color: black;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: relative;
+    color: purple;
+}
+/* Create four equal columns that sits next to each other */
+
+.photo-section {
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .main-text {
+      border: 5px dotted rgb(163, 52, 163);
+      padding: 5%;
+      margin: 5%;
+      background-color: rgb(247, 199, 207);
+  }
+
+  .main-text p {
+      font-family: 'Dancing Script', cursive;
+      font-size: 22px;
+  }
