@@ -46,11 +46,14 @@
     }
     
     h1, h4, h2 {
+        font-style: italic;
         text-align: center;   
         color: rgb(224, 37, 74);
-        font-family: cursive;
+        font-family: 'Merriweather', serif;
     }
     
+
+    /*ALBUMUL AICI EDITEZ*/
     
     .bcp {
         background-image: url(./pictures/background.png);
@@ -94,17 +97,18 @@
         vertical-align: middle;
         width: 100%;
       }
+
+      /*MAINUL AICI EDITEZ*/
     
       .main-text {
-          border: 5px dotted rgb(163, 52, 163);
-          padding: 5%;
-          margin: 5%;
+          border: 3px dotted rgb(163, 52, 163);
+          padding: 5% 2%;
           background-color: rgb(247, 199, 207);
       }
     
       .main-text p {
           font-family: 'Dancing Script', cursive;
-          font-size: 22px;
+          font-size: 15px;
       }
 }
 
