@@ -240,6 +240,12 @@ p {
     width: 100%;
   }
 
+  .footer-album {
+    text-align: end;
+    background-color: pink;
+    width: 100%;
+}
+
   .main-text {
       border: 5px dotted rgb(163, 52, 163);
       padding: 5%;
