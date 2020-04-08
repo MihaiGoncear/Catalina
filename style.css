@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 @media (max-width: 778px) {
+
     .header {
         display: flex;
         background-color: rgb(245, 157, 147);
@@ -52,8 +58,8 @@
     .h4{
         font-size: 50%;
     }
-    .h1, .h4 {
-        
+
+    .h1, .h4 { 
         font-style: italic;
         text-align: center;   
         color: rgb(224, 37, 74);
@@ -68,17 +74,15 @@
         background-repeat: no-repeat; 
         background-position: center; 
         background-size: cover;
-        
     }
+
     .album-head {
         display: flex;
         justify-content: center;
         width: 100%;
-       
     }
     
-    .album-head p {
-        
+    .album-head p { 
         line-height: 1.5;
         color: black;
         font-size: 75%;
@@ -86,7 +90,6 @@
         position: relative;
         color: purple;
     }
-    /* Create four equal columns that sits next to each other */
     
     .photo-section {
         background-color: pink;
@@ -94,48 +97,56 @@
         flex-wrap: wrap;
         padding: 0 4px;
         justify-content: center;
-      }
+    }
       
-      .column {
+    .column {
         max-width: 90%;
-        margin: 5%;
-        
-        
-      }
+        margin: 0 5%; 
+    }
       
-      .column img {
-        margin-top: 8px;
+    .column img {
+        border: 1px black solid;
+        margin: 5% 0;
         vertical-align: middle;
         width: 100%;
-      }
+    }
+
+    .footer-album {
+        display: flex;
+        justify-content: flex-end;
+        background-color: pink;
+        width: 100%;
+    }
 
       /*MAINUL AICI EDITEZ*/
 
-      .main-header {
+    .main-header {
         background-image: url(./pictures/background.png);
         background-repeat: no-repeat; 
         background-position: center; 
         background-size: cover;
         padding: 4% 0;
         width: 100%;
-      }
+    }
     
-      .main-text {
-          border: 3px dotted rgb(163, 52, 163);
-          padding: 5% 2%;
-          margin: 0 1%;
-          background-color: rgb(247, 199, 207);
-      }
+    .main-text {
+        border: 3px dotted rgb(163, 52, 163);
+        padding: 5% 2%;
+        margin: 0 1%;
+        background-color: rgb(247, 199, 207);
+    }
     
-      .main-text p {
-          font-family: 'Dancing Script', cursive;
-          font-size: 15px;
-      }
+    .main-text p {
+        font-family: 'Dancing Script', cursive;
+        font-size: 15px;
+    }
+
 }
 
 
 
 @media (min-width: 779px) {
+
 .header {
     display: flex;
     background-color: rgb(245, 157, 147);
@@ -204,7 +215,6 @@ p {
 }
 
 .album-head p {
-    
     line-height: 1.5;
     color: black;
     font-size: 30px;
@@ -212,7 +222,6 @@ p {
     position: relative;
     color: purple;
 }
-/* Create four equal columns that sits next to each other */
 
 .photo-section {
     background-color: pink;
@@ -226,7 +235,7 @@ p {
     padding: 0 4px;
   }
   
-  .column img {
+  .column img {   
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
