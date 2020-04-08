@@ -112,8 +112,8 @@ footer {
     }
 
     .footer-album {
-        display: flex;
-        justify-content: flex-end;
+        text-align: end;
+        padding-right: 2%;
         background-color: pink;
         width: 100%;
     }
