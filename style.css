@@ -99,6 +99,13 @@
       }
 
       /*MAINUL AICI EDITEZ*/
+
+      .main-header {
+        background-image: url(./pictures/background.png);
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: cover;
+      }
     
       .main-text {
           border: 3px dotted rgb(163, 52, 163);
